@@ -78,6 +78,7 @@ body{
 
 .home-img{
     width: 100%;
+    height: auto;
     overflow: hidden;
     margin-top: -350px;
     display: flex;
@@ -86,15 +87,13 @@ body{
 }
 
 .home-img img{
-    width: 890px;
-    height: 977px;
-    transition: width 0.6s ease, height 0.6s ease, margin-top 0.6s ease;
+    width: 564px;
+    height: 545px;
+    margin-top: 250px;
 }
 
 .home-img img:hover{
-    width: 990px;
-    height: 1077px;
-    margin-top: -90px;
+    
 }
 
 .home-text h1{
@@ -105,35 +104,4 @@ body{
     font-weight: 200;
 }
 
-.home-text-bottom{
-    color: white;
-    text-align: center;
-    margin-top: -190px;
-    font-size: 33px;
-    font-family: "groove";
-    font-weight: 200;
-}
 
-.home-button{
-    align-items: center;
-    text-align: center;
-}
-
-.button-frame{
-    background-color: #1B1919;
-    width: 300px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-    padding: 4px 10px;
-    border-radius: 10px;
-}
-
-.button-frame span{
-    font-family: "groove";
-    font-weight: 200;
-    font-size: 26px;
-}
