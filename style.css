@@ -104,9 +104,24 @@ body{
     font-weight: 200;
 }
 
+#menu {
+    margin-top: 100px;
+    padding: 50px 90px;
+}
 
+.template-container{
+    display: flex;
+    flex-direction: row;
+}
 
-
+#insert-here {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* optional: moves cards to next line if not enough space */
+    justify-content: center; /* optional: centers the cards */
+    gap: 20px; /* optional: spacing between cards */
+    padding: 20px;
+}
 
 
 
@@ -121,6 +136,7 @@ body{
             border: 1px solid #ccc;
             border-radius: 20px;
             padding: 16px;
+            flex: 0 0 300px;
             max-width: 300px;
             height: 300px;
             text-align: center;
@@ -162,5 +178,32 @@ body{
         .order-btn:hover {
             background-color: #a00c0c;
         }
+
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1B1919;
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#footer p{
+    color: white;
+    text-align: center;
+}
+
+#footer span{
+    color: rgb(162, 162, 162);
+    display: flex;
+    justify-content: center;
+}
+
 
 
